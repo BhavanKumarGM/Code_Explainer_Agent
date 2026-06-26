@@ -1,0 +1,92 @@
+/* Reset some default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4ebea;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: #e74c3c;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.tier {
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tier h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tier p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tier button {
+  background-color: #3498db;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
